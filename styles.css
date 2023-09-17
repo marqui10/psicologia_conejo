@@ -1,82 +1,21 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Estilos para ocultar el menú desplegable inicialmente */
+.hidden {
+    display: none;
 }
 
-/* Encabezado */
-.header {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
+/* Estilos para el menú desplegable */
+#menu-desplegable {
+    position: absolute;
+    top: 60px; /* Ajusta la posición vertical según tu diseño */
+    right: 10px; /* Ajusta la posición horizontal según tu diseño */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.header__title {
-    font-size: 2rem;
-}
-
-.header__description {
-    font-size: 1.2rem;
-}
-
-/* Sección de Dueños y Trabajadores */
-.team-member {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.team-member img {
-    max-width: 50%;
-    border-radius: 25%;
-}
-
-.team-member h3 {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-/* Sección Interactiva de Terapias */
-.therapy {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.therapy img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.therapy h3 {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-/* Sistema de Citas */
-.external-appointment-link {
-    background-color: #3498db;
-    color: #fff;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.external-appointment-link:hover {
-    background-color: #2980b9;
-}
-
-/* Pie de Página */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-.footer__text {
-    font-size: 0.9rem;
+/* Estilos para los botones */
+button {
+    padding: 5px 10px;
+    margin: 5px;
 }
